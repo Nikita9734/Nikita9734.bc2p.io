@@ -87,7 +87,7 @@ main
 .rotate
 {
     transform: perspective(500px) rotateY(1800deg);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .model
