@@ -1,6 +1,8 @@
 body{
     background-image: url(img/back.jpg);
-    background-size: cover;
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 header{
@@ -87,12 +89,11 @@ main
 .rotate
 {
     transform: perspective(500px) rotateY(1800deg);
-    transition: 0.1s;
+    transition: 0.5s;
 }
 
 .model
 {
-    color:white;
     font-size:40px;
     width: 100vw;
     height: 100vh;
